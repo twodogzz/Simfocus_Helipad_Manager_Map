@@ -1,0 +1,58 @@
+﻿<Window x:Class="Simfocus_Helipad_Manager_Map.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="Simfocus Helipad Manager" Height="800" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left: list, search, controls -->
+        <DockPanel Grid.Column="0" Margin="8">
+            <StackPanel DockPanel.Dock="Top" Orientation="Vertical" Margin="0,0,0,8">
+                <TextBox Text="{Binding Search, UpdateSourceTrigger=PropertyChanged}" />
+                <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                    <Button Content="Refresh" Command="{Binding RefreshCommand}" Margin="0,0,6,0"/>
+                    <Button Content="Bulk Toggle" Command="{Binding BulkToggleCommand}" Margin="0,0,6,0"/>
+                    <Button Content="Undo" Command="{Binding UndoCommand}"/>
+                </StackPanel>
+            </StackPanel>
+
+            <ListBox ItemsSource="{Binding FilteredHelipads}" SelectedIndex="0" DockPanel.Dock="Top" Margin="0,8,0,0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="Gray" BorderThickness="0,0,0,1" Padding="4">
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="{Binding ICAO}" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Name}" FontStyle="Italic" FontSize="12"/>
+                                <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+                                    <TextBlock Text="{Binding Latitude, StringFormat=Lat: {0:F5}}"/>
+                                    <TextBlock Text="  "/>
+                                    <TextBlock Text="{Binding Longitude, StringFormat=Lon: {0:F5}}"/>
+                                    <Button Content="Toggle" Command="{Binding ToggleCommand}" Margin="8,0,0,0"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <GroupBox Header="Recent Logs" DockPanel.Dock="Bottom" Height="200" Margin="0,8,0,0">
+                <ScrollViewer>
+                    <ItemsControl ItemsSource="{Binding RecentLogs}"/>
+                </ScrollViewer>
+            </GroupBox>
+        </DockPanel>
+
+        <!-- Right: WebView2 Leaflet map -->
+        <Border Grid.Column="1" Margin="8" BorderBrush="DarkGray" BorderThickness="1" CornerRadius="4">
+            <Grid>
+                <wv2:WebView2 x:Name="webView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

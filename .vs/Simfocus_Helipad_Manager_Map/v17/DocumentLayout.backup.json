@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\viewmodels\\helipadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:viewmodels\\helipadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\iloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\iloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\tests\\matchingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:tests\\matchingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\assets\\map.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:assets\\map.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\tests\\csvparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:tests\\csvparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\iscannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\iscannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|e:\\onedrive\\softwareprojects\\githubrepos\\flight-sim\\simfocus_helipad_manager_map\\models\\helipad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484942C2-A071-4B29-83C5-C1141DB98566}|Simfocus_Helipad_Manager_Map.csproj|solutionrelative:models\\helipad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "map.html",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Assets\\map.html",
+              "RelativeDocumentMoniker": "Assets\\map.html",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Assets\\map.html",
+              "RelativeToolTip": "Assets\\map.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-28T17:11:08.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileServiceTests.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Tests\\FileServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\FileServiceTests.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Tests\\FileServiceTests.cs",
+              "RelativeToolTip": "Tests\\FileServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:51:44.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatchingTests.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Tests\\MatchingTests.cs",
+              "RelativeDocumentMoniker": "Tests\\MatchingTests.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Tests\\MatchingTests.cs",
+              "RelativeToolTip": "Tests\\MatchingTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAMwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:50:49.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CsvParserTests.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Tests\\CsvParserTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CsvParserTests.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Tests\\CsvParserTests.cs",
+              "RelativeToolTip": "Tests\\CsvParserTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:49:56.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-28T16:48:35.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAewLMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:45:34.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HelipadViewModel.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\ViewModels\\HelipadViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HelipadViewModel.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\ViewModels\\HelipadViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HelipadViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:44:21.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RelayCommand.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:43:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Services\\FileService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\FileService.cs",
+              "RelativeToolTip": "Services\\FileService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:42:27.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\IFileService.cs",
+              "RelativeDocumentMoniker": "Services\\IFileService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\IFileService.cs",
+              "RelativeToolTip": "Services\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:41:56.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IScannerService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\IScannerService.cs",
+              "RelativeDocumentMoniker": "Services\\IScannerService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\IScannerService.cs",
+              "RelativeToolTip": "Services\\IScannerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:38:24.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\LoggingService.cs",
+              "RelativeDocumentMoniker": "Services\\LoggingService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\LoggingService.cs",
+              "RelativeToolTip": "Services\\LoggingService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAMwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:37:10.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoggingService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\ILoggingService.cs",
+              "RelativeDocumentMoniker": "Services\\ILoggingService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\ILoggingService.cs",
+              "RelativeToolTip": "Services\\ILoggingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:35:54.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "Services\\SettingsService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\SettingsService.cs",
+              "RelativeToolTip": "Services\\SettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:34:50.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "Services\\ISettingsService.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Services\\ISettingsService.cs",
+              "RelativeToolTip": "Services\\ISettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:33:37.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Helipad.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Models\\Helipad.cs",
+              "RelativeDocumentMoniker": "Models\\Helipad.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\Models\\Helipad.cs",
+              "RelativeToolTip": "Models\\Helipad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:32:26.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:30:54.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T16:26:43.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T16:17:53.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\OneDrive\\SoftwareProjects\\GithubRepos\\flight-sim\\Simfocus_Helipad_Manager_Map\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:17:49.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

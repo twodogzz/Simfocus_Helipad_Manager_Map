@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Helipad Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <style>
+    html, body, #map { height: 100%; margin: 0; padding: 0; }
+    .disabled-marker { filter: grayscale(1) opacity(0.6); }
+    .enabled-marker { filter: none; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <script>
+    // Create map
+    var map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    var markers = L.markerClusterGroup({
+      chunkedLoading: true
+    });
+
+    var markerByIcao = {}; // icao -> marker
+
+    map.addLayer(markers);
+
+    function createMarker(item) {
+      if (!item || !item.lat || !item.lon) return null;
+      var icon = L.circleMarker([item.lat, item.lon], {
+        radius: 8,
+        fillColor: item.enabled ? '#3388ff' : '#777',
+        color: '#fff',
+        weight: 1,
+        fillOpacity: 0.9
+      });
+
+      var marker = L.marker([item.lat, item.lon], {
+        title: item.icao
+      });
+
+      var tooltipContent = '<b>' + (item.icao || '') + '</b><br/>' + (item.name || '');
+      marker.bindTooltip(tooltipContent, { direction: 'top', offset: [0, -8] });
+
+      marker.on('click', function () {
+        // ask host to toggle this helipad
+        if (window.chrome && window.chrome.webview) {
+          window.chrome.webview.postMessage(JSON.stringify({ action: 'toggle', icao: item.icao }));
+        }
+      });
+
+      return marker;
+    }
+
+    // update markers with array of helipad objects
+    function updateHelipads(list) {
+      markers.clearLayers();
+      markerByIcao = {};
+      if (!Array.isArray(list)) return;
+      list.forEach(function (item) {
+        if (!item || !item.lat || !item.lon) return;
+        var marker = createMarker(item);
+        if (marker) {
+          markers.addLayer(marker);
+          markerByIcao[item.icao] = marker;
+        }
+      });
+    }
+
+    // handle messages from host
+    if (window.chrome && window.chrome.webview) {
+      window.chrome.webview.addEventListener('message', function (evt) {
+        // evt.data may already be an object if PostWebMessageAsJson was used.
+        var data = evt.data;
+        try {
+          // If host sends a JSON string, attempt to parse; otherwise use directly
+          if (typeof data === 'string') {
+            data = JSON.parse(data);
+          }
+        } catch (e) { /* ignore */ }
+        updateHelipads(data);
+      });
+    }
+
+    // expose a quick request command for host to ask for refresh
+    function requestRefresh() {
+      if (window.chrome && window.chrome.webview) {
+        window.chrome.webview.postMessage(JSON.stringify({ action: 'requestRefresh' }));
+      }
+    }
+
+    // Expose to console for debug
+    window.updateHelipads = updateHelipads;
+    window.requestRefresh = requestRefresh;
+  </script>
+</body>
+</html>
